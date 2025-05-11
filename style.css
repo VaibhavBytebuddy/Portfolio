@@ -168,7 +168,7 @@ body.dark-mode header {
 }
 
 body.dark-mode header ul li a {
-    color: #ccc;
+    color: #0a0909;
 }
 
 body.dark-mode header ul li a:hover, body.dark-mode header ul li a.active {
@@ -184,5 +184,34 @@ body.dark-mode .project-img {
 }
 
 body.dark-mode footer {
-    background: #222;
+    background: #f3ecec;
+}
+
+
+/*
+
+
+
+*/
+
+/* Dark Mode Text Color */
+body.dark-mode #skills h3, 
+body.dark-mode .progress-bar {
+  color: rgb(2, 2, 2);
+}
+
+/* Centering the skill icon and progress bar */
+skill {
+  text-align: center;
+}
+
+.skill img {
+  width: 80px; /* Adjust based on your icon size */
+  height: 80px;
+  margin-bottom: 1rem;
+}
+
+/* Adjust progress bar color for dark mode */
+body.dark-mode .progress-bar {
+  background-color: #007bff;
 }
